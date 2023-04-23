@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Ducanh-xillin-ise/project_1/project_1.sim/sim_1/synth/timing/xsim/test_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD1
+INFO: [VRFC 10-311] analyzing module FIFO_tx
+INFO: [VRFC 10-311] analyzing module UART
+INFO: [VRFC 10-311] analyzing module UART_transmitter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Ducanh-xillin-ise/project_1/project_1.srcs/sim_1/new/test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tb

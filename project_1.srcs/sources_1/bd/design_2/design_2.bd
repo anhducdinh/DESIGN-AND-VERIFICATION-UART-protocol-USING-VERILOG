@@ -1,0 +1,390 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xDF49683618743000",
+      "device": "xc7z010iclg225-1L",
+      "gen_directory": "../../../../project_1.gen/sources_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2"
+    },
+    "design_tree": {
+      "clk_wiz": "",
+      "rst_clk_wiz_50M": "",
+      "clk_wiz_1": "",
+      "rst_clk_wiz_1_50M": "",
+      "clk_wiz_2": "",
+      "rst_clk_wiz_2_50M": "",
+      "FIFO_tx_0": "",
+      "baud_rate_generator_0": "",
+      "UART_rx_receiver_0": "",
+      "FIFO_RX": ""
+    },
+    "ports": {
+      "clk_50MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_2_clk_50MHz"
+          },
+          "FREQ_HZ": {
+            "value": "50000000"
+          }
+        }
+      },
+      "reset_rtl_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "clk_50MHz_1": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_2_clk_50MHz_1"
+          },
+          "FREQ_HZ": {
+            "value": "50000000"
+          }
+        }
+      },
+      "reset_rtl_0_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "clk_50MHz_2": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        }
+      },
+      "reset_rtl_0_0_1": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_2_clk_wiz_0",
+        "xci_path": "ip\\design_2_clk_wiz_0\\design_2_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz"
+      },
+      "rst_clk_wiz_50M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "xci_name": "design_2_rst_clk_wiz_100M_0",
+        "xci_path": "ip\\design_2_rst_clk_wiz_100M_0\\design_2_rst_clk_wiz_100M_0.xci",
+        "inst_hier_path": "rst_clk_wiz_50M"
+      },
+      "clk_wiz_1": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_2_clk_wiz_1_0",
+        "xci_path": "ip\\design_2_clk_wiz_1_0\\design_2_clk_wiz_1_0.xci",
+        "inst_hier_path": "clk_wiz_1"
+      },
+      "rst_clk_wiz_1_50M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "xci_name": "design_2_rst_clk_wiz_1_100M_0",
+        "xci_path": "ip\\design_2_rst_clk_wiz_1_100M_0\\design_2_rst_clk_wiz_1_100M_0.xci",
+        "inst_hier_path": "rst_clk_wiz_1_50M"
+      },
+      "clk_wiz_2": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_2_clk_wiz_2_0",
+        "xci_path": "ip\\design_2_clk_wiz_2_0\\design_2_clk_wiz_2_0.xci",
+        "inst_hier_path": "clk_wiz_2"
+      },
+      "rst_clk_wiz_2_50M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "xci_name": "design_2_rst_clk_wiz_2_100M_0",
+        "xci_path": "ip\\design_2_rst_clk_wiz_2_100M_0\\design_2_rst_clk_wiz_2_100M_0.xci",
+        "inst_hier_path": "rst_clk_wiz_2_50M"
+      },
+      "FIFO_tx_0": {
+        "vlnv": "xilinx.com:module_ref:FIFO_tx:1.0",
+        "xci_name": "design_2_FIFO_tx_0_0",
+        "xci_path": "ip\\design_2_FIFO_tx_0_0\\design_2_FIFO_tx_0_0.xci",
+        "inst_hier_path": "FIFO_tx_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FIFO_tx",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "rd": {
+            "direction": "I"
+          },
+          "wr": {
+            "direction": "I"
+          },
+          "w_data": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "empty": {
+            "direction": "O"
+          },
+          "full": {
+            "direction": "O"
+          },
+          "r_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "baud_rate_generator_0": {
+        "vlnv": "xilinx.com:module_ref:baud_rate_generator:1.0",
+        "xci_name": "design_2_baud_rate_generator_0_0",
+        "xci_path": "ip\\design_2_baud_rate_generator_0_0\\design_2_baud_rate_generator_0_0.xci",
+        "inst_hier_path": "baud_rate_generator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "baud_rate_generator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ckht": {
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "s_tick": {
+            "direction": "O"
+          },
+          "q": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "UART_rx_receiver_0": {
+        "vlnv": "xilinx.com:module_ref:UART_rx_receiver:1.0",
+        "xci_name": "design_2_UART_rx_receiver_0_0",
+        "xci_path": "ip\\design_2_UART_rx_receiver_0_0\\design_2_UART_rx_receiver_0_0.xci",
+        "inst_hier_path": "UART_rx_receiver_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "UART_rx_receiver",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rx": {
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "s_tick": {
+            "direction": "I"
+          },
+          "rx_done_tick": {
+            "direction": "O"
+          },
+          "rx_dout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "FIFO_RX": {
+        "vlnv": "xilinx.com:module_ref:FIFO_RX:1.0",
+        "xci_name": "design_2_FIFO_RX_0_0",
+        "xci_path": "ip\\design_2_FIFO_RX_0_0\\design_2_FIFO_RX_0_0.xci",
+        "inst_hier_path": "FIFO_RX",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FIFO_RX",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "rd": {
+            "direction": "I"
+          },
+          "wr": {
+            "direction": "I"
+          },
+          "w_data": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "empty": {
+            "direction": "O"
+          },
+          "full": {
+            "direction": "O"
+          },
+          "r_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_50MHz",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "clk_100MHz_1_1": {
+        "ports": [
+          "clk_50MHz_1",
+          "clk_wiz_1/clk_in1"
+        ]
+      },
+      "clk_100MHz_2_1": {
+        "ports": [
+          "clk_50MHz_2",
+          "clk_wiz_2/clk_in1"
+        ]
+      },
+      "clk_wiz_1_clk_out1": {
+        "ports": [
+          "clk_wiz_1/clk_out1",
+          "rst_clk_wiz_1_50M/slowest_sync_clk",
+          "FIFO_tx_0/clk"
+        ]
+      },
+      "clk_wiz_1_locked": {
+        "ports": [
+          "clk_wiz_1/locked",
+          "rst_clk_wiz_1_50M/dcm_locked"
+        ]
+      },
+      "clk_wiz_2_clk_out1": {
+        "ports": [
+          "clk_wiz_2/clk_out1",
+          "rst_clk_wiz_2_50M/slowest_sync_clk",
+          "UART_rx_receiver_0/clk"
+        ]
+      },
+      "clk_wiz_2_locked": {
+        "ports": [
+          "clk_wiz_2/locked",
+          "rst_clk_wiz_2_50M/dcm_locked"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "rst_clk_wiz_50M/slowest_sync_clk",
+          "FIFO_RX/clk"
+        ]
+      },
+      "clk_wiz_locked": {
+        "ports": [
+          "clk_wiz/locked",
+          "rst_clk_wiz_50M/dcm_locked"
+        ]
+      },
+      "reset_rtl_0_0_1": {
+        "ports": [
+          "reset_rtl_0_0",
+          "clk_wiz_1/reset"
+        ]
+      },
+      "reset_rtl_0_0_1_1": {
+        "ports": [
+          "reset_rtl_0_0_1",
+          "clk_wiz_2/reset"
+        ]
+      },
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "clk_wiz/reset",
+          "rst_clk_wiz_1_50M/ext_reset_in",
+          "rst_clk_wiz_2_50M/ext_reset_in",
+          "rst_clk_wiz_50M/ext_reset_in"
+        ]
+      },
+      "rst_clk_wiz_100M_peripheral_aresetn": {
+        "ports": [
+          "rst_clk_wiz_50M/peripheral_aresetn",
+          "FIFO_RX/reset"
+        ]
+      },
+      "rst_clk_wiz_1_100M_peripheral_aresetn": {
+        "ports": [
+          "rst_clk_wiz_1_50M/peripheral_aresetn",
+          "FIFO_tx_0/reset"
+        ]
+      },
+      "rst_clk_wiz_2_100M_peripheral_aresetn": {
+        "ports": [
+          "rst_clk_wiz_2_50M/peripheral_aresetn",
+          "UART_rx_receiver_0/reset"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_2_baud_rate_generator_0_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_baud_rate_generator_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_FIFO_RX_0_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_FIFO_RX_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_FIFO_tx_0_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_FIFO_tx_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_UART_rx_receiver_0_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_UART_rx_receiver_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_clk_wiz_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_rst_clk_wiz_100M_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_rst_clk_wiz_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_clk_wiz_1_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_clk_wiz_2_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_clk_wiz_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_rst_clk_wiz_2_100M_0_synth_1" LaunchDir="E:/Ducanh-xillin-ise/project_1/project_1.runs/design_2_rst_clk_wiz_2_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
